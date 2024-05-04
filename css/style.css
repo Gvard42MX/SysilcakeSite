@@ -1,0 +1,224 @@
+.btn {
+  background-color: #ff007f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00d9ff;
+  color: #ff007f;
+}
+
+/* Responsivitas Gambar */
+.img-responsive {
+  width: 100%;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Baris */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Pusatkan vertikal */
+.ai-center {
+  align-items: center;
+}
+
+/* Space antara */
+.jc-sb {
+  justify-content: space-between;
+}
+
+/* Space navigasi */
+.nav-space {
+  margin: 0 1 0.5%;
+}
+
+/* Logo */
+.nav-brand img {
+  max-width: 90px;
+}
+
+/* Link kontak */
+.nav-contact a {
+  text-decoration: none;
+  color: turquoise;
+}
+
+/* Pusatkan hero */
+.hero .container .row {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pusatkan konten di kolom hero */
+.hero .container .row .col5 {
+  text-align: center;
+}
+
+/* Loop untuk lebar kolom */
+.col1 {
+  width: 5.3333333333%;
+  margin: 1.5%;
+}
+
+.col2 {
+  width: 13.6666666667%;
+  margin: 1.5%;
+}
+
+.col3 {
+  width: 22%;
+  margin: 1.5%;
+}
+
+.col4 {
+  width: 30.3333333333%;
+  margin: 1.5%;
+}
+
+.col5 {
+  width: 38.6666666667%;
+  margin: 1.5%;
+}
+
+.col6 {
+  width: 47%;
+  margin: 1.5%;
+}
+
+.col7 {
+  width: 55.3333333333%;
+  margin: 1.5%;
+}
+
+.col8 {
+  width: 63.6666666667%;
+  margin: 1.5%;
+}
+
+.col9 {
+  width: 72%;
+  margin: 1.5%;
+}
+
+.col10 {
+  width: 80.3333333333%;
+  margin: 1.5%;
+}
+
+.col11 {
+  width: 88.6666666667%;
+  margin: 1.5%;
+}
+
+.col12 {
+  width: 97%;
+  margin: 1.5%;
+}
+
+/* Media query untuk layar kecil */
+@media screen and (max-width: 480px) {
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .col4 {
+    width: 100%;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .col7 {
+    width: 100%;
+  }
+  .col8 {
+    width: 100%;
+  }
+  .col9 {
+    width: 100%;
+  }
+  .col10 {
+    width: 100%;
+  }
+  .col11 {
+    width: 100%;
+  }
+  .col12 {
+    width: 100%;
+  }
+}
+/* Sudut bulatan gambar */
+.img-radius {
+  border-radius: 10px;
+}
+
+/* Pusatkan item dalam baris manfaat */
+.benefit .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Lebar kolom manfaat */
+.benefit .col14,
+.benefit .col13 {
+  width: 33.33%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Ukuran ikon */
+.icon72 {
+  width: 65px;
+}
+
+/* Spasi antara */
+.spacer2 {
+  padding: 2% 0;
+}
+
+/* Animasi putaran */
+.rotate {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Footer hak cipta */
+.copyright {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Margin paragraf hak cipta */
+.copyright p {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

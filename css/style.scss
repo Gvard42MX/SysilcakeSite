@@ -1,0 +1,146 @@
+
+
+
+
+.btn {
+    background-color: #ff007f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #00d9ff;
+    color: #ff007f;
+}
+
+/* Responsivitas Gambar */
+.img-responsive {
+    width: 100%;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Baris */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Pusatkan vertikal */
+.ai-center {
+    align-items: center;
+}
+
+/* Space antara */
+.jc-sb {
+    justify-content: space-between;
+}
+
+/* Space navigasi */
+.nav-space {
+    margin: 0 1 .5%;
+}
+
+/* Logo */
+.nav-brand img {
+    max-width: 90px;
+}
+
+/* Link kontak */
+.nav-contact a {
+    text-decoration: none;
+    color: turquoise;
+}
+
+/* Pusatkan hero */
+.hero .container .row {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pusatkan konten di kolom hero */
+.hero .container .row .col5 {
+    text-align: center;
+}
+
+/* Loop untuk lebar kolom */
+@for $i from 1 through 12 {
+    .col#{$i} {
+        width: (100% / (12 / $i)) - 3%;
+        margin: 1.5%;
+    }
+}
+
+/* Media query untuk layar kecil */
+@media screen and (max-width: 480px) {
+    @for $i from 1 through 12 {
+        .col#{$i} {
+            width: 100%;
+        }
+    }
+}
+
+/* Sudut bulatan gambar */
+.img-radius {
+    border-radius: 10px;
+}
+
+/* Pusatkan item dalam baris manfaat */
+.benefit .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lebar kolom manfaat */
+.benefit .col14,
+.benefit .col13 {
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Ukuran ikon */
+.icon72 {
+    width: 65px;
+}
+
+/* Spasi antara */
+.spacer2 {
+    padding: 2% 0;
+}
+
+/* Animasi putaran */
+.rotate {
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Footer hak cipta */
+.copyright {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Margin paragraf hak cipta */
+.copyright p {
+    margin: 0;
+}
